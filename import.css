@@ -423,7 +423,7 @@ section.panels_c48ade,
 .container__2637a {
   overflow: visible !important;
   z-index: 2 !important;
-
+margin-right: 0px!important;
   .scroller__629e4,
   .scroller__99e7c {
     width: calc(100% + 24px);
@@ -448,6 +448,7 @@ section.panels_c48ade,
   height: 40px;
   justify-content: center;
   gap: var(--spacing-12) !important;
+  padding-right: 32px;
 
   .iconContainer__2ea32 {
     scale: 0.8;
