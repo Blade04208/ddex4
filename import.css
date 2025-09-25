@@ -810,3 +810,27 @@ body,
 .panels_c48ade {
   background: transparent !important;
 } */
+
+.imagePosition_ef9ae7 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    filter: blur(5px);
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.overlay_c0bea0 {
+    overflow: hidden;
+    .badgesContainer__635ed {
+        right: 40px;
+    }
+    .headerContextMenu__39ec2 {
+        height: 24px;
+        align-content: center;
+    }
+}
