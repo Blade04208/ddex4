@@ -3,13 +3,13 @@
  * @description Discord's scrapped Design Experiment V4, made real.
  * @author Blade0
  * @authorId 1124341362955919371
- * @version 3
+ * @version 3.1
  * @updateUrl https://blade04208.github.io/ddex4/ddex4.theme.css
  * @source https://github.com/Blade04208/ddex4
  * @invite KEcCnVuTV7
  */
  
-@import url(https://blade04208.github.io/ddex4/import.css);
+@import url(https://blade04208.github.io/ddex4/src/import.css);
 @import url(https://blade04208.github.io/ddex4/src/bubbles.css);
 
 /* no custom vars (yet) */
