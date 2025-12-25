@@ -141,14 +141,14 @@ section._5e434347c823b592-panels,
   box-shadow: 0px 32px 60px 12px rgba(0, 0, 0, 0.75);
 }
 
-._974928fe84ca9647-search:not(._974928fe84ca9647-open) {
-  ._974928fe84ca9647-searchBar {
+.c322aadb96ff59c9-search:not(.c322aadb96ff59c9-open) {
+  .c322aadb96ff59c9-searchBar {
     width: 22px;
     background: transparent;
     border: none;
   }
 
-  ._974928fe84ca9647-icon {
+  .c322aadb96ff59c9-icon {
     cursor: pointer;
 
     .iconContainer_fea832 {
