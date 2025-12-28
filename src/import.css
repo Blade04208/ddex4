@@ -7,7 +7,8 @@
 .e6b7699ce8339e1c-privateChannels,
 ._99e7cad8d4c55236-scroller,
 section._5e434347c823b592-panels,
-._37e49614b9f110a9-container, ._960e4207cea8323e-bg {
+._37e49614b9f110a9-container,
+._960e4207cea8323e-bg {
   background: transparent !important;
   background-color: transparent !important;
   border: none !important;
@@ -274,6 +275,7 @@ section._5e434347c823b592-panels,
   overflow: hidden;
   height: calc(100% + var(--custom-channel-header-height) - 16px) !important;
 }
+
 /* ACTIVITY GOOBERS  -  -  -  -  -  -  -  -  -  -  -  -  - */
 ._0f2e83213c878a13-container {
   /* gradient */
@@ -287,18 +289,18 @@ section._5e434347c823b592-panels,
   border: none !important;
 
   &::after {
-      z-index: -1;
-      content: "";
-      position: absolute;
-      height: 100%;
-      width: 100%;
-      top: 0;
-      right: 0px;
-      left: 0px;
-      background: linear-gradient(rgba(0, 0, 0, 0), var(--brand-700)), linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, .7));
-      background-blend-mode: screen, difference, ligthen;
-      border-radius: 0px 0px 0 0;
-      opacity: 0.6;
+    z-index: -1;
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0px;
+    left: 0px;
+    background: linear-gradient(rgba(0, 0, 0, 0), var(--brand-700)), linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, .7));
+    background-blend-mode: screen, difference, ligthen;
+    border-radius: 0px 0px 0 0;
+    opacity: 0.6;
   }
 }
 
@@ -308,19 +310,19 @@ section._5e434347c823b592-panels,
   z-index: 0;
 
   ._0f2e83213c878a13-contentTitle::before {
-      opacity: 0.75;
-      content: "played ";
-      font-size: 12px;
+    opacity: 0.75;
+    content: "played ";
+    font-size: 12px;
   }
 
   * {
-      text-shadow: 0px 0px 10px rgb(0, 0, 0);
-      overflow: visible !important;
-      z-index: 1;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+    overflow: visible !important;
+    z-index: 1;
   }
 
   svg>path {
-      box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
   }
 }
 
@@ -364,7 +366,7 @@ section._5e434347c823b592-panels,
   justify-content: center;
 
   ._635edac6e9713347-badgeLabel {
-      display: none;
+    display: none;
 
   }
 }
@@ -373,14 +375,14 @@ section._5e434347c823b592-panels,
   background-color: var(--text-positive) !important;
 
   ._4bd5201c86a2042b-tabularNumbers {
-      color: #ffffff !important;
-      text-shadow: none !important;
+    color: #ffffff !important;
+    text-shadow: none !important;
   }
 
   svg path {
-      text-shadow: none !important;
-      color: #ffffff !important;
-      fill: #ffffff !important;
+    text-shadow: none !important;
+    color: #ffffff !important;
+    fill: #ffffff !important;
   }
 }
 
@@ -391,17 +393,17 @@ section._5e434347c823b592-panels,
   justify-content: flex-end;
 
   ._635edac6e9713347-badgeContainer {
-      backdrop-filter: saturate(3) blur(20px);
-      background-color: rgba(0, 0, 0, 0.25);
-      border-radius: 8px;
-      padding: 4px;
+    backdrop-filter: saturate(3) blur(20px);
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    padding: 4px;
 
-      svg path,
-      [data-text-variant="text-xs/normal"] {
-          text-shadow: none !important;
-          color: #ffffff !important;
-          fill: #ffffff !important;
-      }
+    svg path,
+    [data-text-variant="text-xs/normal"] {
+      text-shadow: none !important;
+      color: #ffffff !important;
+      fill: #ffffff !important;
+    }
   }
 }
 
@@ -409,9 +411,9 @@ section._5e434347c823b592-panels,
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%!important;
-  height: 100%!important;
-  max-width: none!important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
   z-index: -1;
   border-radius: 0px;
   filter: saturate(80%);
@@ -423,7 +425,8 @@ section._5e434347c823b592-panels,
 ._2637a2609f343032-container {
   overflow: visible !important;
   z-index: 2 !important;
-margin-right: 0px!important;
+  margin-right: 0px !important;
+
   ._629e4c86564a4ee7-scroller,
   ._99e7cad8d4c55236-scroller {
     width: calc(100% + 24px);
@@ -501,7 +504,7 @@ margin-right: 0px!important;
   width: calc(100vw - var(--custom-guild-list-width)) !important;
   height: 100vh !important;
   opacity: 1 !important;
-  transform: translateX(calc(-85px + var(--custom-guild-list-width))) translateY(-95px) !important;
+  transform: translateX(calc(-78px + var(--custom-guild-list-width))) translateY(-95px) !important;
   background-color: transparent !important;
   border-bottom: none !important;
   box-shadow: none;
@@ -679,18 +682,19 @@ section._5e434347c823b592-panels {
   width: 100%;
   z-index: 3;
   pointer-events: none;
-  > span {
-  width: 8px;
-  height: 8px!important;
-  right: 15px !important;
-  bottom: -2px !important;
-  top: auto !important;
-  left: auto !important;
-  background: var(--header-primary);
-  border-radius: 50%;
-  border: 4px solid var(--bg-base-tertiary);
-  z-index: 3;
-  pointer-events: none;
+
+  >span {
+    width: 8px;
+    height: 8px !important;
+    right: 15px !important;
+    bottom: -2px !important;
+    top: auto !important;
+    left: auto !important;
+    background: var(--interactive-text-active);
+    border-radius: 50%;
+    border: 4px solid var(--bg-base-tertiary);
+    z-index: 3;
+    pointer-events: none;
   }
 }
 
@@ -812,25 +816,27 @@ body,
 } */
 
 .ef9ae7987ec7715e-imagePosition {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    border-radius: 8px;
-    overflow: hidden;
-    filter: blur(5px);
-    z-index: -1;
-    opacity: 0.5;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  filter: blur(5px);
+  z-index: -1;
+  opacity: 0.5;
 }
 
 .c0bea05627c5dc35-overlay {
-    overflow: hidden;
-    ._635edac6e9713347-badgesContainer {
-        right: 40px;
-    }
-    ._39ec2e3dfb4fd2f2-headerContextMenu {
-        height: 24px;
-        align-content: center;
-    }
+  overflow: hidden;
+
+  ._635edac6e9713347-badgesContainer {
+    right: 40px;
+  }
+
+  ._39ec2e3dfb4fd2f2-headerContextMenu {
+    height: 24px;
+    align-content: center;
+  }
 }
