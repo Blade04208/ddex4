@@ -840,3 +840,8 @@ body,
     align-content: center;
   }
 }
+
+
+.d125d22cdfd32cfe-content>div[aria-hidden="true"] {
+  display: none;
+}
